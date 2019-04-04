@@ -1,0 +1,331 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RentBD</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  <!--for font awesome--->
+
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+  $('#slider').nivoSlider({
+    effect:'random',
+    slices:10,
+    animSpeed:500,
+    pauseTime:2200,
+    startSlide:0, //Set starting Slide (0 index)
+    directionNav:false,
+    directionNavHide:false, //Only show on hover
+    controlNav:false, //1,2,3...
+    controlNavThumbs:false, //Use thumbnails for Control Nav
+    pauseOnHover:true, //Stop animation while hovering
+    manualAdvance:false, //Force manual transitions
+    captionOpacity:0.8, //Universal caption opacity
+    beforeChange: function(){},
+    afterChange: function(){},
+    slideshowEnd: function(){} //Triggers after all slides have been shown
+  });
+});
+</script>  <!--js for slider image-->
+
+
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <div class="clear">
+    <a href="#goto3"> <h4 class="chat">Chat &nbspWith&nbsp  Us...</h4> </a>
+    <div class="template top1">
+      <div class="top2">
+          <a href="home.html"><img src="img/logo.png"></a>
+      </div>
+      <div class="top3" id="goto3">
+          <input type="search" placeholder=" Search a product...">
+          <input type="submit" value="Search">
+      </div>
+      
+      <div class="top4">
+        <h2>HELPLINE: +88 096 06 11 99(24 hours)</h2>
+        <i class="fas fa-shopping-cart"> Cart</i>
+        <p><span>Login/register</span> </p>
+      </div>
+    </div>
+    <div class="menu1">
+      <div class="menu2">
+        <a href="#goto1" style="color: #fff; transition: .5s"> <p class="menu3">FOR RENT</p> </a>
+        <a href="#goto2" style="color: #fff"> <p>FOR BUY</p> </a>
+        <p>CONTACT US</p>
+      </div>
+    </div>
+
+    <div class="template slide">  <!--image slider-->
+
+        <div id="slider">
+            <a href="#"><img src="img/ss1.jpg" /></a>
+            <a href="#"><img src="img/ss2.jpg" /></a>
+            <a href="#"><img src="img/ss3.jpg" /></a>
+        </div>
+    </div>
+
+    <div id="goto1"class="template clear hr1">
+      <div class="hr2">
+        <h3>HOT RENTING PRODUCTS</h3>
+      </div>
+      <div>
+        <div class="hr3">
+          <img src="img/rent1.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(45)</span></p>
+          <p>Gents Coat-Pant</p>
+          <p><span>&#2547;200/week</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/rent2.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(37)</span></p>
+          <p>Ladies Jwellery set</p>
+          <p><span>&#2547;999/week</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/rent3.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(32)</span></p>
+          <p>Sherwani</p>
+          <p><span>&#2547;199/week</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/rent4.png">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(26)</span></p>
+          <p>Ladies Bag</p>
+          <p><span>&#2547;149/week</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/rent5.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(13)</span></p>
+          <p>Gents Watch</p>
+          <p><span>&#2547;549/week</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+      </div>
+    </div>
+    <div id="goto2" class="template clear hr1">
+      <div class="hr2">
+        <h3>HOT SELLING PRODUCTS</h3>
+      </div>
+      <div>
+        <div class="hr3">
+          <img src="img/sell1.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(45)</span></p>
+          <p>Gents Shoes</p>
+          <p><span>&#2547;2250</span></p>
+          <p class="hr4">BUY NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/sell2.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(37)</span></p>
+          <p>Ladies Shari</p>
+          <p><span>&#2547;4999</span></p>
+          <p class="hr4">BUY NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/sell3.jpeg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(32)</span></p>
+          <p>Ladies Bag</p>
+          <p><span>&#2547;1450</span></p>
+          <p class="hr4">BUY NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/sell4.jpg">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(26)</span></p>
+          <p>Gents Panjabi</p>
+          <p><span>&#2547;1990</span></p>
+          <p class="hr4">BUY NOW</p>
+        </div>
+        <div class="hr3">
+          <img src="img/sell5.gif">
+          <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>(13)</span></p>
+          <p>Gents Breslet</p>
+          <p><span>&#2547;390</span></p>
+          <p class="hr4">RENT NOW</p>
+        </div>
+      </div>
+    </div>
+    <div class="mid">
+      <div class="mid1 template clear">
+        <h1>HOW RENTBD WORKS</h1>
+        <div class="mid2">
+          <h2><span>1.</span> SEARCH</h2>
+          <p>Search our unlimited products.</p>
+          <input type="search" placeholder=" Search products">
+          <input type="submit" value="SEARCH">
+        </div>
+        <div class="mid3">
+          <h2><span>2.</span> CHOOSE</h2>
+          <p>Choose any products from list.</p>
+          <h4>CHOOSE PRODUCTS</h4>
+        </div>
+        <div class="mid4">
+          <h2><span>3.</span> BOOK</h2>
+          <p>Book for rent or buy them.</p>
+          <h4>CONTACT US</h4>
+        </div>
+      </div>
+    </div>
+    <div class="mid5">
+      <h1>RENT OR BUY ANY PRODUCT FROM ANYWHERE</h1>
+      <h3>Wherever you need to buy or rent any product, there's RentBD is near you.</h3>
+      <p>By our company you can rent or buy any product from anywhere of Bangladesh.Your work is just order and we will reach it near you.</p>
+    </div>
+    <div class="mid6">
+      <div class="template clear">
+        <div class="mid7">
+          <h1>CHOOSE FLEXIBLE USAGE OPTIONS</h1>
+          <h3>Whether you need any product for one hour or many days, there's RentBD is solution for you.</h3>
+        </div>
+        <div class="mid8">
+          <div class="mid9">
+            <div class="mid10">
+              <h2>ON DEMAND</h2>
+            </div>
+            <div class="mid11">
+              <p>Only pay for what you need. Start using our products and return it after using or buy it.</p>
+              <h4 class="bkn1">BOOK NOW</h4>
+            </div>
+          </div>
+          <div class="mid9">
+            <div class="mid10">
+              <h2>MONTHLY RENT</h2>
+            </div>
+            <div class="mid11">
+              <p>Book your choisable product for one month and pay for one month.</p>
+              <h4 class="bkn2">BOOK NOW</h4>
+            </div>
+          </div>
+          <div class="mid9">
+            <div class="mid10">
+              <h2>YEARLY RENT</h2>
+            </div>
+            <div class="mid11">
+              <p>Book your choisable product for one year and pay for a year.</p>
+              <h4 class="bkn2">BOOK NOW</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="template clear lc3">
+      <div class="lc1">
+        <img class="lc4" src="img/mobile.png">
+        <p>
+          <img src="img/googleplay.png">
+          <img src="img/appstore.png">
+        </p>
+      </div>
+      <div class="lc1">
+        <h1>STAY PRODUCTIVE</h1>
+        <h3>From our app that allows you to easily find and book any products and manage your accounts.</h3>
+      </div>
+    </div>
+    <div class="bottom1">
+      <p class="template"><a href=""><span>ABOUT</span> <span>TERMS OF USE</span> <span>PRIVACY POLICY</span> <span>CONTACT</span></a></p>
+    </div>
+    <div class="bottom2">
+      <div class="template clear">
+        <div class="bottom3">
+          <h3>SIGN UP FOR NEWSLETTER:</h3>
+          <input type="email" placeholder=" Email Adress">
+          <input type="submit" value="JOIN">
+          <p>Follow us everywhere and be the first to know.</p>
+        </div>
+        <div class="bottom4">
+          <h3>PAYMENT METHODS</h3>
+          <p>
+            <img class="img1" src="img/Visa.png">
+            <img class="img1" src="img/Mastercard.png">
+            <img class="img1" src="img/bkash.jpg">
+            <img class="img1" src="img/cash-on-delivery.jpg">
+            <img class="img1" src="img/dbbl.jpg">
+          </p>
+        </div>
+        <div class="bottom5">
+          <h3>DOWNLOAD OUR RentBD.com APP</h3>
+          <img class="img2" src="img/googleplay.png">
+          <ul>
+            <li>Book your product</li>
+            <li>Manage your account</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottom6">
+      <div class="template clear">
+        <div class="bottom7">
+          <h3>INFO</h3>
+          <ul>
+            <a href=""><li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>Warranty Policy</li>
+            <li>Returns and Replacement</li>
+            <li>Terms & Conditions</li></a>
+          </ul>
+        </div>
+        <div class="bottom8">
+          <h3>LET US HELP YOU</h3>
+          <ul>
+            <a href=""><li>Your Account</li>
+            <li>Your Orders</li>
+            <li>Click & Collect</li>
+            <li>How to Place an Order</li>
+            <li>Track Your Order</li>
+            <li>bKash Terms & Conditions</li></a>
+          </ul>
+        </div>
+        <div class="bottom9">
+          <h3>OUR COMMUNITIES</h3>
+          <p class="iii">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-youtube-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-google-plus-square"></i>
+          </p>
+          <p class="mail">
+            <i class="fas fa-envelope"> support@rentbd.com</i>
+          </p>
+          <p class="help">HELPLINE: +88 096 06 11 99</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottoml">
+      <p class="template">Copyright &copy 2018 RentBD.com-All Rights Reserved</p>
+    </div>
+  </div>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
